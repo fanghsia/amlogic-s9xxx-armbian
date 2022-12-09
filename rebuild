@@ -83,19 +83,20 @@ auto_kernel="true"
 
 # Set supported board
 build_armbian=(
-    "a311d"
-    "s922x" "s922x-n2" "s922x-reva"
-    "s905x3" "s905x3-b"
-    "s905x2" "s905x2-km3"
-    "s912" "s912-m8s"
-    "s905d" "s905d-ki" "s905l2"
-    "s905x"
-    "s905w"
-    "s905"
-    "s905l3a"
-    "rock5b"
-    "r66s" "r68s"
-    "beikeyun" "l1pro"
+    "s912"
+#     "a311d"
+#     "s922x" "s922x-n2" "s922x-reva"
+#     "s905x3" "s905x3-b"
+#     "s905x2" "s905x2-km3"
+#     "s912" "s912-m8s"
+#     "s905d" "s905d-ki" "s905l2"
+#     "s905x"
+#     "s905w"
+#     "s905"
+#     "s905l3a"
+#     "rock5b"
+#     "r66s" "r68s"
+#     "beikeyun" "l1pro"
 )
 
 # Set Armbian firmware size (Unit: MiB, BOOT_MB >= 256, ROOT_MB >= 2048)
